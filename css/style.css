@@ -1,16 +1,22 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default margins and padding */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    color: #333;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Clean, modern sans-serif font */
+    color: #333; /* Dark grey text, good for readability */
+    background-color: #f9f9f9; /* Light grey background */
+    line-height: 1.6; /* Improves readability */
+    text-align: left; /* Ensures all text is left-aligned */
 }
 
 header {
     background-color: #004d99; /* Dark blue background */
-    color: white;
+    color: white; /* White text for contrast */
     padding: 10px 0;
-    text-align: center;
+    text-align: center; /* Centered nav items */
 }
 
 header nav ul {
@@ -24,25 +30,28 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: white; /* Ensures nav links are white */
     text-decoration: none;
+    padding: 5px 10px;
 }
 
 main {
-    padding: 20px;
-    background-color: #f4f4f4;
-    text-align: center;
+    padding: 20px; /* Adds space around the content */
+    background-color: white; /* White background for the main content area */
+    width: 80%; /* Limits the width of the main content area */
+    margin: 20px auto; /* Centers the main content block horizontally */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
 footer {
-    background-color: #00264d; /* Darker blue */
+    background-color: #333; /* Dark footer */
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
+
+/* Additional styles for publications, projects etc. can be defined similarly */
+
 
 .profile-img {
     width: 150px;
